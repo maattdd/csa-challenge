@@ -15,3 +15,6 @@ csa_pascal: csa.pas
 
 csa_swift: csa.swift
 	xcrun --sdk macosx swiftc -O -o csa_swift csa.swift
+
+csa_crystal: csa.cr
+	crystal build --release csa.cr -o csa_cr
